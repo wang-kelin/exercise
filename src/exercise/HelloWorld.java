@@ -12,7 +12,7 @@ public class HelloWorld {
 		first();
 		Map<Integer,List<Apple>> apple = second();
 		for(List<Apple> appleList : apple.values()){
-			System.out.println("Æ»¹û:" + appleList.get(0).getId() + ", " + appleList.get(0).getType()
+			System.out.println("è‹¹æžœ:" + appleList.get(0).getId() + ", " + appleList.get(0).getType()
 					+ ", " + appleList.get(0).getSale());
 		}
 	}
