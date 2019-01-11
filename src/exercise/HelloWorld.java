@@ -46,10 +46,17 @@ public class HelloWorld {
 		apple4.setId(4);
 		apple4.setType("xx");
 		apple4.setSale("80");
-		
+
+		Apple apple5 = new Apple();
+		apple5.setId(4);
+		apple5.setType("xl");
+		apple5.setSale("90");
+
 		appleList.add(apple1);
 		appleList.add(apple2);
 		appleList.add(apple3);
+		appleList.add(apple4);
+		appleList.add(apple5);
 		
 		Map<Integer,List<Apple>> appleMap = appleList.stream().collect(Collectors.groupingBy(Apple :: getId));
 		
