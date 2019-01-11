@@ -57,7 +57,7 @@ public class HelloWorld {
 		Apple apple5 = new Apple();
 		apple5.setId(4);
 		apple5.setType("xl");
-		apple5.setSale("90");
+		apple5.setSale("99");
 
 		appleList.add(apple1);
 		appleList.add(apple2);
