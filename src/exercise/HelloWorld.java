@@ -57,6 +57,7 @@ public class HelloWorld {
 		appleList.add(apple1);
 		appleList.add(apple2);
 		appleList.add(apple3);
+		appleList.add(apple4);
 		
 		Map<Integer,List<Apple>> appleMap = appleList.stream().collect(Collectors.groupingBy(Apple :: getId));
 		
