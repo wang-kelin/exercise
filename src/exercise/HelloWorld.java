@@ -10,6 +10,7 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 		first();
+		two();
 		Map<Integer,List<Apple>> apple = second();
 		for(List<Apple> appleList : apple.values()){
 			System.out.println("苹果:" + appleList.get(0).getId() + ", " + appleList.get(0).getType()
@@ -17,13 +18,19 @@ public class HelloWorld {
 		}
 	}
 
-	public static void first() {
+	private static void first() {
 
 		String args = "This is my first github repository";
 		System.out.println(args);
 	}
-	
-	public static Map<Integer,List<Apple>> second(){
+
+	private static void two() {
+
+		String args = "2019-1-11 This is my second go to github";
+		System.out.println(args);
+	}
+
+	private static Map<Integer,List<Apple>> second(){
 		
 		List<Apple> appleList = new ArrayList<>();
 		
