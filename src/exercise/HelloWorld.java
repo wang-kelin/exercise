@@ -17,13 +17,13 @@ public class HelloWorld {
 		}
 	}
 
-	public static void first() {
+	private static void first() {
 
 		String args = "This is my first github repository";
 		System.out.println(args);
 	}
-	
-	public static Map<Integer,List<Apple>> second(){
+
+    private static Map<Integer,List<Apple>> second(){
 		
 		List<Apple> appleList = new ArrayList<>();
 		
@@ -41,6 +41,11 @@ public class HelloWorld {
 		apple3.setId(3);
 		apple3.setType("ll");
 		apple3.setSale("70");
+
+		Apple apple4 = new Apple();
+		apple4.setId(4);
+		apple4.setType("xx");
+		apple4.setSale("80");
 		
 		appleList.add(apple1);
 		appleList.add(apple2);
